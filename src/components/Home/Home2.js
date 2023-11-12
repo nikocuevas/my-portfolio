@@ -19,37 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            Started with pixels, ended up programming epics! My childhood gaming 
+            adventures weren't just a high score chase – turns out, they were the 
+            secret level to my programming career. Who knew my joystick skills would 
+            lead to coding thrills? 🎮💻
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              <br />I am well-versed in classics like
+                <b className="purple"> JavaScript and Java. </b>
               <br />
               <br />
-              My field of interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+              My field of interest's include &nbsp;
+                <b className="purple">automating manual processes </b> and
+                working on my side projects such as{" "} 
                 <b className="purple">
-                  Blockchain.
+                  development of test automation tools.
                 </b>
-              </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              In every opportunity I get, I invest in expanding my programming
+              knowledge.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

@@ -5,9 +5,6 @@ import {
   DiNodejs,
   DiNpm,
   DiJava,
-  DiGit,
-  DiBitbucket,
-  DiJira,
   DiMongodb,
 } from "react-icons/di";
 import {
@@ -43,18 +40,6 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
       <div style={{ textAlign: 'center' }}>
-        <DiGit style={{ marginBottom: '5px' }} />
-        <span style={{ fontSize: '15px', display: 'block' }}>GitHub</span>
-      </div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <div style={{ textAlign: 'center' }}>
-        <DiBitbucket style={{ marginBottom: '5px' }} />
-        <span style={{ fontSize: '15px', display: 'block' }}>Bitbucket</span>
-      </div>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <div style={{ textAlign: 'center' }}>
         <SiMysql style={{ marginBottom: '5px' }} />
         <span style={{ fontSize: '15px', display: 'block' }}>MySQL</span>
       </div>
@@ -65,12 +50,7 @@ function Techstack() {
         <span style={{ fontSize: '15px', display: 'block' }}>MongoDB</span>
       </div>
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <div style={{ textAlign: 'center' }}>
-        <DiJira style={{ marginBottom: '5px' }} />
-        <span style={{ fontSize: '15px', display: 'block' }}>JIRA</span>
-      </div>
-      </Col>
+
     </Row>
   );
 }

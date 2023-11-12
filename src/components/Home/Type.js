@@ -7,10 +7,12 @@ function Type() {
       options={{
         strings: [
           "Software QA Automation Engineer",
+          "Software Testing Trainer",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: "natural",
+        delay: 20,
       }}
     />
   );

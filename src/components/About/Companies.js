@@ -8,7 +8,10 @@ function Companies() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiAccenture />
+      <div style={{ textAlign: 'center' }}>
+        <SiAccenture style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>Accenture</span>
+      </div>
       </Col>
     </Row>
   );

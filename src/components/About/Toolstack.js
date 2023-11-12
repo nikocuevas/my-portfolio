@@ -7,8 +7,13 @@ import {
   SiApple,
   SiWindows,
   SiEclipseide,
-  
 } from "react-icons/si";
+import {
+  DiGit,
+  DiBitbucket,
+  DiJira,
+} from "react-icons/di";
+
 
 function Toolstack() {
   return (
@@ -35,6 +40,24 @@ function Toolstack() {
       <div style={{ textAlign: 'center' }}>
         <SiEclipseide style={{ marginBottom: '5px' }} />
         <span style={{ fontSize: '15px', display: 'block' }}>Eclipse IDE</span>
+      </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <div style={{ textAlign: 'center' }}>
+        <DiGit style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>GitHub</span>
+      </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <div style={{ textAlign: 'center' }}>
+        <DiBitbucket style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>Bitbucket</span>
+      </div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+      <div style={{ textAlign: 'center' }}>
+        <DiJira style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>JIRA</span>
       </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
