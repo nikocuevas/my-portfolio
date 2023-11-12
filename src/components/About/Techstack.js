@@ -1,68 +1,75 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
 import {
   DiJavascript1,
-  DiReact,
   DiNodejs,
-  DiMongodb,
-  DiPython,
-  DiGit,
+  DiNpm,
   DiJava,
+  DiGit,
+  DiBitbucket,
+  DiJira,
+  DiMongodb,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiMysql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+      <div style={{ textAlign: 'center' }}>
+        <DiJavascript1 style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>JavaScript</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+      <div style={{ textAlign: 'center' }}>
+        <DiNodejs style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>NodeJS</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+      <div style={{ textAlign: 'center' }}>
+        <DiNpm style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>NPM</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+      <div style={{ textAlign: 'center' }}>
+        <DiJava style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>Java</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+      <div style={{ textAlign: 'center' }}>
+        <DiGit style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>GitHub</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+      <div style={{ textAlign: 'center' }}>
+        <DiBitbucket style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>Bitbucket</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+      <div style={{ textAlign: 'center' }}>
+        <SiMysql style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>MySQL</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
+      <div style={{ textAlign: 'center' }}>
+        <DiMongodb style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>MongoDB</span>
+      </div>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+      <div style={{ textAlign: 'center' }}>
+        <DiJira style={{ marginBottom: '5px' }} />
+        <span style={{ fontSize: '15px', display: 'block' }}>JIRA</span>
+      </div>
       </Col>
     </Row>
   );
