@@ -1,3 +1,9 @@
+# Acknowledgments
+
+This project is built upon the foundation laid by [SOUMYAJIT BEHERA](https://github.com/soumyajit4419/Portfolio). We are grateful for their contributions and the inspiration they provided.
+
+...
+
 <h2 align="center">
   Portfolio Website - v2.0<br/>
   <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a>
