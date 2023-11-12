@@ -54,7 +54,7 @@ function About() {
         <Toolstack />
 
         <h1 className="project-heading">
-          <strong className="purple">Fortune 500</strong> companies I worked with
+          <strong className="purple">Fortune Global 500</strong> companies I worked with
         </h1>
         <Companies />
 
