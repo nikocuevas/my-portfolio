@@ -6,7 +6,7 @@ This project is built upon the foundation laid by [SOUMYAJIT BEHERA](https://git
 
 <h2 align="center">
   Portfolio Website - v1.0<br/>
-  <a href="https://soumyajit.vercel.app/" target="_blank">nikocuevas.tech</a>
+  <a href="https://nikocuevas.vercel.app/" target="_blank">nikocuevas.tech</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img.png" />
